@@ -8,3 +8,9 @@ In this project we implement a system to find or extract the ‘n’ most popula
  The Fibonacci heap and hash table is then initialized. The input file is parsed line by line to get the respective hashtag(#) and the key. The hash map is checked to see if the word exists. If the word doesn’t exist, the insert() function is called to insert the record as a new node. If the word exists already then the increaseKey() function is called and the respective removal of the node from its parent if the value is maximum.  
 
  The removeMaxFreq() function is then called to call the Fibonacci heap functions explained in the previous section and print the respective output either in the console or output file according to the input given.
+
+Instructions to run:
+
+you can run the make file to generate the .class files or, javac hashtagcounter.java
+
+java hashtagcounter <input_file.txt> <output_file.txt>
